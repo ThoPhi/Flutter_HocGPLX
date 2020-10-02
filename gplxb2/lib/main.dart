@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'bode600cau.dart';
-import 'lythuyet.dart';
+import 'LyThuyet/lythuyet.dart';
 
 void main() {
   runApp(new MyApp());
