@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'bode600cau.dart';
 import 'LyThuyet/lythuyet.dart';
+import 'bode600cau_hinh.dart';
 
 void main() {
   runApp(new MyApp());
@@ -148,7 +149,8 @@ class _MyHomePageState extends State<MyHomePage> {
   void iconBoDePressed() {
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => PageBoDe()),
+      // MaterialPageRoute(builder: (context) => PageBoDe()),
+      MaterialPageRoute(builder: (context) => DeThi()),
     );
   }
 
